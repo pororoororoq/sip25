@@ -1,0 +1,1 @@
+ $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -O0 -fno-common -I"C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X" -I"C:/ECE118/include"   -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  C:/ECE118/src/RC_Servo.c
