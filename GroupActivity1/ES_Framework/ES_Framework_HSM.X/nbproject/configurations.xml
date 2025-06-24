@@ -30,6 +30,7 @@
       <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/ES_Configure.h</itemPath>
       <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateHSM.h</itemPath>
       <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateSubHSM.h</itemPath>
+      <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateEventChecker.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -63,6 +64,7 @@
       <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateES_Main.c</itemPath>
       <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateHSM.c</itemPath>
       <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateSubHSM.c</itemPath>
+      <itemPath>C:/Users/hanse/MPLABXProjects/ES_Framework_HSM.X/TemplateEventChecker.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
