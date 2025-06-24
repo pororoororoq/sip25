@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <project>                                  
-  <executable name="dist/default/production/ES_FRamework_FSM.X.production.elf">                 
+  <executable name="dist/default/production/ES_Framework_FSM.X.production.elf">                 
     <memory name="program">                 
       <units>bytes</units>                 
       <length>126464</length>                 
-      <used>56056</used>                     
-      <free>70408</free>                     
+      <used>56576</used>                     
+      <free>69888</free>                     
     </memory>                              
     <memory name="data">              
       <units>bytes</units>                 
       <length>16384</length>                 
-      <used>3272</used>                     
-      <free>13112</free>                     
+      <used>3328</used>                     
+      <free>13056</free>                     
     </memory>                              
   </executable>                            
 </project>                                 
