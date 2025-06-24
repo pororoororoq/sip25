@@ -1,0 +1,36 @@
+digraph Roach_HSM {
+    rankdir=LR;
+    
+    node [shape=ellipse];
+
+    // Top-level states
+    InDark; InLight;
+
+    // Substates
+    Hiding; AvoidingBump;
+    Running; Dancing;
+
+    // Initial state pointer
+    init [shape=point];
+
+    // Initial transition
+    init -> InDark [label=<<u>ES_INIT</u><br/><i>Start in dark</i>>];
+
+    // Top-level transitions
+    InDark -> InLight [label=<<u>INTO_LIGHT</u><br/><i>Switch to light behavior</i>>];
+    InLight -> InDark [label=<<u>INTO_DARK</u><br/><i>Switch to dark behavior</i>>];
+
+    // InDark substates
+    InDark -> Hiding [label=<<u>ES_ENTRY</u><br/><i>Enter InDark</i>>];
+    Hiding -> AvoidingBump [label=<<u>BUMPED</u><br/><i>Back up</i>>];
+    AvoidingBump -> Hiding [label=<<u>DONE_EVADING</u><br/><i>Back to hiding</i>>];
+
+    // InLight substates
+    InLight -> Running [label=<<u>ES_ENTRY</u><br/><i>Enter InLight</i>>];
+    Running -> Dancing [label=<<u>TIMER_EXPIRED</u><br/><i>Start dancing</i>>];
+    Dancing -> Running [label=<<u>TIMER_EXPIRED</u><br/><i>Resume running</i>>];
+
+    // Optional: exit transitions
+    Hiding -> InLight [label=<<u>INTO_LIGHT</u><br/><i>Dark → Light</i>>];
+    Running -> InDark [label=<<u>INTO_DARK</u><br/><i>Light → Dark</i>>];
+}
