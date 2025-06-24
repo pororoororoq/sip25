@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=ES_Framework.X
+PROJECTNAME=ES_Framework_SimpleService.X
 
 # Active Configuration
 DEFAULTCONF=default
