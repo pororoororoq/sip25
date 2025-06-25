@@ -41,8 +41,8 @@
 #include "ES_Framework.h"
 // #include "BumperService.h" // <-- Commented out because file is missing or not needed
 #include "BOARD.h"
-#include "TemplateHSM.h"
-#include "TemplateSubHSM.h" //#include all sub state machines called
+#include "RoachHSM.h"
+#include "RoachSubHSM.h" //#include all sub state machines called
 /*******************************************************************************
  * PRIVATE #DEFINES                                                            *
  ******************************************************************************/
