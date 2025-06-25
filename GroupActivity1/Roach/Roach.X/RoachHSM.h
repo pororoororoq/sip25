@@ -1,192 +1,89 @@
-#ifndef ROACH_HSM_H
-#define ROACH_HSM_H
+/*
+ * File: TemplateHSM.h
+ * Author: J. Edward Carryer
+ * Modified: Gabriel H Elkaim
+ *
+ * Template file to set up a Heirarchical State Machine to work with the Events and
+ * Services Framework (ES_Framework) on the Uno32 for the CMPE-118/L class. Note that 
+ * this file will need to be modified to fit your exact needs, and most of the names
+ * will have to be changed to match your code.
+ *
+ * There is another template file for the SubHSM's that is slightly differet, and
+ * should be used for all of the subordinate state machines (flat or heirarchical)
+ *
+ * This is provided as an example and a good place to start.
+ *
+ * Created on 23/Oct/2011
+ * Updated on 16/Sep/2013
+ */
 
-#include "ES_Configure.h"
-#include "ES_Framework.h"
+#ifndef HSM_Template_H  // <- This should be changed to your own guard on both
+#define HSM_Template_H  //    of these lines
+
 
 /*******************************************************************************
- * PUBLIC FUNCTION PROTOTYPES
+ * PUBLIC #INCLUDES                                                            *
+ ******************************************************************************/
+
+#include "ES_Configure.h"   // defines ES_Event, INIT_EVENT, ENTRY_EVENT, and EXIT_EVENT
+
+/*******************************************************************************
+ * PUBLIC #DEFINES                                                             *
+ ******************************************************************************/
+
+
+/*******************************************************************************
+ * PUBLIC TYPEDEFS                                                             *
+ ******************************************************************************/
+
+
+/*******************************************************************************
+ * PUBLIC FUNCTION PROTOTYPES                                                  *
  ******************************************************************************/
 
 /**
  * @Function InitRoachHSM(uint8_t Priority)
- * @param Priority - internal priority of this state machine
- * @return TRUE on success, FALSE on failure
- * @brief Initializes the top-level HSM and posts ES_INIT to its own queue
- */
+ * @param Priority - internal variable to track which event queue to use
+ * @return TRUE or FALSE
+ * @brief This will get called by the framework at the beginning of the code
+ *        execution. It will post an ES_INIT event to the appropriate event
+ *        queue, which will be handled inside RunTemplateFSM function. Remember
+ *        to rename this to something appropriate.
+ *        Returns TRUE if successful, FALSE otherwise
+ * @author J. Edward Carryer, 2011.10.23 19:25 */
 uint8_t InitRoachHSM(uint8_t Priority);
+
 
 /**
  * @Function PostRoachHSM(ES_Event ThisEvent)
- * @param ThisEvent - the event to post to this HSM's queue
- * @return TRUE if successful, FALSE otherwise
- * @brief Wrapper for posting events to this state machine
- */
+ * @param ThisEvent - the event (type and param) to be posted to queue
+ * @return TRUE or FALSE
+ * @brief This function is a wrapper to the queue posting function, and its name
+ *        will be used inside ES_Configure to point to which queue events should
+ *        be posted to. Remember to rename to something appropriate.
+ *        Returns TRUE if successful, FALSE otherwise
+ * @author J. Edward Carryer, 2011.10.23 19:25 */
 uint8_t PostRoachHSM(ES_Event ThisEvent);
+
+
+
 
 /**
  * @Function RunRoachHSM(ES_Event ThisEvent)
  * @param ThisEvent - the event (type and param) to be responded.
  * @return Event - return event (type and param), in general should be ES_NO_EVENT
- * @brief This function is where you implement the whole of the hierarchical state
- *        machine for the Roach behavior. It is called whenever a new event is
- *        received via the event queue. This function manages state transitions
- *        following the convention: exit current state ? enter next state, using
- *        ES_EXIT and ES_ENTRY event types. 
- *
- *        The RoachHSM includes the following states:
- *        - InDark
- *        - Hiding
- *        - AvoidingBump
- *        - InLight
- *        - Running
- *        - Dancing
- *
- *        State transitions are based on light detection, bump events, timers,
- *        and internal transitions such as DONE_EVADING or INTO_DARK/LIGHT.
- *
- *        In this HSM, sub-state logic (like Hiding ? AvoidingBump) may also be
- *        expanded into nested state machines as needed.
- *
- * @note You should make sure any subordinate state machines (if added later)
- *       are run *before* handling events at the current level.
- *       ES_ENTRY and ES_EXIT events should always be passed through for proper
- *       state lifecycle handling.
- *
+ * @brief This function is where you implement the whole of the heirarchical state
+ *        machine, as this is called any time a new event is passed to the event
+ *        queue. This function will be called recursively to implement the correct
+ *        order for a state transition to be: exit current state -> enter next state
+ *        using the ES_EXIT and ES_ENTRY events.
+ * @note Remember to rename to something appropriate.
+ *       The lower level state machines are run first, to see if the event is dealt
+ *       with there rather than at the current level. ES_EXIT and ES_ENTRY events are
+ *       not consumed as these need to pass pack to the higher level state machine.
  * @author J. Edward Carryer, 2011.10.23 19:25
- * @author Gabriel H Elkaim, 2011.10.23 19:25
- * @editor Jake J Kim, 2025.06.25
- */
+ * @author Gabriel H Elkaim, 2011.10.23 19:25 */
+ES_Event RunRoachHSM(ES_Event ThisEvent);
 
+#endif /* HSM_Template_H */
 
-
-ES_Event RunRoachHSM(ES_Event ThisEvent) {
-    ES_Event ReturnEvent = { ES_NO_EVENT, 0 };
-    RoachStates_t NextState = CurrentState;
-    uint8_t MakeTransition = FALSE;
-
-    switch(CurrentState) {
-        case InDark:
-            switch(ThisEvent.EventType) {
-                case ES_ENTRY:
-                    // Do setup for InDark (e.g., stop motors, turn off LEDs, etc.)
-                    break;
-                case INTO_LIGHT:
-                    MakeTransition = TRUE;
-                    NextState = InLight;
-                    break;
-                // case ES_ENTRY_HISTORY:  // Optional
-                //     break;
-                case ES_INIT:
-                    // Start in dark, can transition to Hiding if needed
-                    MakeTransition = TRUE;
-                    NextState = Hiding;
-                    break;
-            }
-            break;
-
-        case Hiding:
-            switch(ThisEvent.EventType) {
-                case ES_ENTRY:
-                    // Setup for Hiding (e.g., stop, hide behavior)
-                    break;
-                case BUMPED:
-                    MakeTransition = TRUE;
-                    NextState = AvoidingBump;
-                    break;
-                case INTO_DARK:
-                    MakeTransition = TRUE;
-                    NextState = InDark;
-                    break;
-                case INTO_LIGHT:
-                    MakeTransition = TRUE;
-                    NextState = InLight;
-                    break;
-            }
-            break;
-
-        case AvoidingBump:
-            switch(ThisEvent.EventType) {
-                case ES_ENTRY:
-                    // Setup for AvoidingBump (e.g., back up)
-                    break;
-                case DONE_EVADING:
-                    MakeTransition = TRUE;
-                    NextState = Hiding;
-                    break;
-                case INTO_DARK:
-                    MakeTransition = TRUE;
-                    NextState = InDark;
-                    break;
-                case INTO_LIGHT:
-                    MakeTransition = TRUE;
-                    NextState = InLight;
-                    break;
-            }
-            break;
-
-        case InLight:
-            switch(ThisEvent.EventType) {
-                case ES_ENTRY:
-                    // Setup for InLight (e.g., turn on LEDs, etc.)
-                    break;
-                // case ES_ENTRY_HISTORY:
-                //     break;
-                case TIMER_EXPIRED:
-                    MakeTransition = TRUE;
-                    NextState = Running;
-                    break;
-                case INTO_DARK:
-                    MakeTransition = TRUE;
-                    NextState = InDark;
-                    break;
-            }
-            break;
-
-        case Running:
-            switch(ThisEvent.EventType) {
-                case ES_ENTRY:
-                    // Setup for Running (e.g., start timer for dancing)
-                    break;
-                case TIMER_EXPIRED:
-                    MakeTransition = TRUE;
-                    NextState = Dancing;
-                    break;
-                case INTO_DARK:
-                    MakeTransition = TRUE;
-                    NextState = InDark;
-                    break;
-            }
-            break;
-
-        case Dancing:
-            switch(ThisEvent.EventType) {
-                case ES_ENTRY:
-                    // Setup for Dancing (e.g., start timer for running)
-                    break;
-                case TIMER_EXPIRED:
-                    MakeTransition = TRUE;
-                    NextState = Running;
-                    break;
-                case INTO_DARK:
-                    MakeTransition = TRUE;
-                    NextState = InDark;
-                    break;
-            }
-            break;
-    }
-
-    if (MakeTransition) {
-        RunRoachHSM((ES_Event){ES_EXIT, 0});
-        CurrentState = NextState;
-        RunRoachHSM((ES_Event){ES_ENTRY, 0});
-    }
-
-    return ReturnEvent;
-}
-
-
-
-/*******************************************************************************
- * PRIVATE FUNCTIONS                                                           *
- ******************************************************************************/
