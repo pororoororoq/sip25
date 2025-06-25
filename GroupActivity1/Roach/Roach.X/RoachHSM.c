@@ -157,7 +157,7 @@ uint8_t PostTemplateHSM(ES_Event ThisEvent)
  *        - Dancing
  *
  *        State transitions are based on light detection, bump events, timers,
- *        and internal transitions such as DONE_EVADING or INTO_DARK/LIGHT.
+ *        and internal transitions such as DONE_EVADING or DARK/LIGHT.
  *
  *        In this HSM, sub-state logic (like Hiding → AvoidingBump) may also be
  *        expanded into nested state machines as needed.
@@ -185,7 +185,7 @@ ES_Event RunRoachHSM(ES_Event ThisEvent) {
                 case ES_ENTRY:
                     // Do setup for InDark (e.g., stop motors, turn off LEDs, etc.)
                     break;
-                case INTO_LIGHT:
+                case LIGHT:
                     MakeTransition = TRUE;
                     NextState = InLight;
                     break;
@@ -208,11 +208,11 @@ ES_Event RunRoachHSM(ES_Event ThisEvent) {
                     MakeTransition = TRUE;
                     NextState = AvoidingBump;
                     break;
-                case INTO_DARK:
+                case DARK:
                     MakeTransition = TRUE;
                     NextState = InDark;
                     break;
-                case INTO_LIGHT:
+                case LIGHT:
                     MakeTransition = TRUE;
                     NextState = InLight;
                     break;
@@ -228,11 +228,11 @@ ES_Event RunRoachHSM(ES_Event ThisEvent) {
                     MakeTransition = TRUE;
                     NextState = Hiding;
                     break;
-                case INTO_DARK:
+                case DARK:
                     MakeTransition = TRUE;
                     NextState = InDark;
                     break;
-                case INTO_LIGHT:
+                case LIGHT:
                     MakeTransition = TRUE;
                     NextState = InLight;
                     break;
@@ -250,7 +250,7 @@ ES_Event RunRoachHSM(ES_Event ThisEvent) {
                     MakeTransition = TRUE;
                     NextState = Running;
                     break;
-                case INTO_DARK:
+                case DARK:
                     MakeTransition = TRUE;
                     NextState = InDark;
                     break;
@@ -266,7 +266,7 @@ ES_Event RunRoachHSM(ES_Event ThisEvent) {
                     MakeTransition = TRUE;
                     NextState = Dancing;
                     break;
-                case INTO_DARK:
+                case DARK:
                     MakeTransition = TRUE;
                     NextState = InDark;
                     break;
@@ -282,7 +282,7 @@ ES_Event RunRoachHSM(ES_Event ThisEvent) {
                     MakeTransition = TRUE;
                     NextState = Running;
                     break;
-                case INTO_DARK:
+                case DARK:
                     MakeTransition = TRUE;
                     NextState = InDark;
                     break;
