@@ -52,8 +52,6 @@ typedef enum {
     FL, FR, BL, BR,
     NB,
     // HSM-specific events
-    INTO_LIGHT,    // Transition: Dark -> Light
-    INTO_DARK,     // Transition: Light -> Dark
     BUMPED,        // Bumper triggered
     DONE_EVADING,  // Finished avoiding bump
     TIMER_EXPIRED, // Timer event for running/dancing
@@ -76,8 +74,6 @@ static const char *EventNames[] = {
     "LIGHT", "DARK",
     "FRONT", "BACK", "FL", "FR", "BL", "BR", "NB",
     // HSM-specific events
-    "INTO_LIGHT",
-    "INTO_DARK",
     "BUMPED",
     "DONE_EVADING",
     "TIMER_EXPIRED",
