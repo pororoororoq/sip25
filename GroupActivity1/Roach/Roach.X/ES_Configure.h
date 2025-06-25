@@ -118,9 +118,9 @@ static const char *EventNames[] = {
 // the timer number matches where the timer event will be routed
 
 #define BUMPER_TIMER 0 /*make sure this is enabled above and posting to the correct state machine*/
-#define HSM_TIMER 1
-#define HSM_TIMER 2
-#define HSM_TIMER 3
+#define HSM_TIMER_1 1
+#define HSM_TIMER_2 2
+#define HSM_TIMER_3 3
 #define STUCK_TIMER 4
 
 /****************************************************************************/
