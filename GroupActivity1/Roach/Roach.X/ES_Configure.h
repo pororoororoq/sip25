@@ -1,6 +1,6 @@
 /****************************************************************************
  Module
-     ES_Configure.h
+    ES_Configure.h
  Description
      This file contains macro definitions that are edited by the user to
      adapt the Events and Services framework to a particular application.
@@ -51,6 +51,12 @@ typedef enum {
     FRONT, BACK,
     FL, FR, BL, BR,
     NB,
+    // HSM-specific events
+    INTO_LIGHT,    // Transition: Dark -> Light
+    INTO_DARK,     // Transition: Light -> Dark
+    BUMPED,        // Bumper triggered
+    DONE_EVADING,  // Finished avoiding bump
+    TIMER_EXPIRED, // Timer event for running/dancing
     NUMBEROFEVENTS,
 } ES_EventTyp_t;
 
@@ -69,11 +75,14 @@ static const char *EventNames[] = {
     "BATTERY_DISCONNECTED",
     "LIGHT", "DARK",
     "FRONT", "BACK", "FL", "FR", "BL", "BR", "NB",
+    // HSM-specific events
+    "INTO_LIGHT",
+    "INTO_DARK",
+    "BUMPED",
+    "DONE_EVADING",
+    "TIMER_EXPIRED",
     "NUMBEROFEVENTS",
 };
-
-
-
 
 /****************************************************************************/
 // This are the name of the Event checking function header file.
