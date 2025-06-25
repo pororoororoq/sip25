@@ -99,7 +99,7 @@ static const char *EventNames[] = {
 #define TIMER_UNUSED ((pPostFunc)0)
 #define TIMER0_RESP_FUNC PostBumperService
 #define TIMER1_RESP_FUNC PostRoachHSM
-#define TIMER2_RESP_FUNC PostRoachHSm
+#define TIMER2_RESP_FUNC PostRoachHSM
 #define TIMER3_RESP_FUNC PostRoachHSM
 #define TIMER4_RESP_FUNC PostRoachHSM
 #define TIMER5_RESP_FUNC TIMER_UNUSED
