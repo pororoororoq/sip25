@@ -1,0 +1,69 @@
+- 
+    - https://www.cs.fsu.edu/~lacher/courses/COP4380/lectures/index.html
+    - FSM Example
+        
+        ![FSM Example: Nagging Keyboard](attachment:495465c7-7eac-4c27-8fb4-944ff342b56f:image.png)
+        
+        FSM Example: Nagging Keyboard
+        
+        ![FSM Example: State Transition Table](attachment:b3819a22-45c7-4745-a43d-8341d12e9c4c:image.png)
+        
+        FSM Example: State Transition Table
+        
+    - HSM
+        - Keyboard
+            
+            ![HSM Example: Keyboard](attachment:60049c61-40dd-4242-b09e-e8bcce23578c:image.png)
+            
+            HSM Example: Keyboard
+            
+            ![HSM Example: Keyboard Statechart](attachment:d7626885-e044-4a81-98a1-def69e0753e2:image.png)
+            
+            HSM Example: Keyboard Statechart
+            
+            ![HSM Example: State Transition Table](attachment:c5e03550-5d19-49eb-abb3-b977f2aad3eb:image.png)
+            
+            HSM Example: State Transition Table
+            
+        - Oven
+            
+            ![HSM Example: Oven](attachment:9b2e87da-a236-4cb5-81f9-11df5481b42d:image.png)
+            
+            HSM Example: Oven
+            
+- Roach HSM
+    - State Hierarchy
+        - TemplateHSM
+            - LightHSM
+            - DarkHSM
+    - Events
+        - ES Framework
+            - ES_NO_EVENT, ES_ERROR, /* used to indicate an error from the service */
+            ES_INIT, /* used to transition from initial pseudo-state */
+            ES_ENTRY, /* used to enter a state*/
+            ES_EXIT, /* used to exit a state*/
+            ES_KEYINPUT, /* used to signify a key has been pressed*/
+            ES_LISTEVENTS, /* used to list events in keyboard input, does not get posted to fsm*/
+            ES_TIMEOUT, /* signals that the timer has expired */
+            ES_TIMERACTIVE, /* signals that a timer has become active */
+            ES_TIMERSTOPPED, /* signals that a timer has stopped*/
+        - User-def
+            - LIGHT, DARK,
+            FR, FL, BR, BL, NONE,
+            NUMBEROFEVENTS,
+    - Actions/Transitions
+        - TemplateHSM
+            - DARK in Light triggers transition to Dark
+            - LIGHT in Dark triggers transition to Light
+        - LightHSM
+            - DANCE_TIMER in FORWARD triggers transitions to DANCE
+            - BUMPED_TIMER in FORWARD triggers transition to TURN
+            - BUMPED_TIMER in TURN triggers transition to FORWARD
+            - DANCE_TIMER in DANCE triggers transition to FORWARD
+            - default state is FORWARD
+        - DarkHSM
+            - FL or FR in STOP triggers transition to BACKWARD
+            - BL or BR in STOP triggers transition to FORWARD
+            - BUMPED_TIMER in FORWARD triggers transition to STOP
+            - BUMPED_TIMER in BACKWARD triggers transition to STOP
+            - default state is STOP
