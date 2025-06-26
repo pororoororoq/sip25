@@ -1,0 +1,28 @@
+digraph LightHSM {
+    rankdir=LR;
+    node [shape=ellipse];
+
+    // Initial pseudo state
+    init [shape=point];
+    InitPSubState FORWARD TURN DANCE;
+
+    // Initial transition
+    init -> InitPSubState [label=<<u>ES_INIT</u>>];
+    InitPSubState -> FORWARD [label=<<u>ES_ENTRY</u><br/><i>Start forward + start DANCE_TIMER</i>>];
+
+    // FORWARD transitions
+    FORWARD -> DANCE [label=<<u>ES_TIMEOUT (2)</u><br/><i>Start dancing</i>>];
+    FORWARD -> TURN [label=<<u>ES_TIMEOUT (3)</u><br/><i>Trigger turn</i>>];
+    FORWARD -> TURN [label=<<u>FL / FR</u><br/><i>Bump triggered turn</i>>];
+
+    // TURN transition
+    TURN -> FORWARD [label=<<u>ES_TIMEOUT (3)</u><br/><i>Back to forward</i>>];
+
+    // DANCE transition
+    DANCE -> FORWARD [label=<<u>ES_TIMEOUT</u><br/><i>Finish dancing</i>>];
+
+    // Global LIGHT fallback
+    FORWARD -> FORWARD [label=<<u>LIGHT</u><br/><i>Reset forward</i>>, style=dashed];
+    TURN -> FORWARD [label=<<u>LIGHT</u><br/><i>Reset forward</i>>, style=dashed];
+    DANCE -> FORWARD [label=<<u>LIGHT</u><br/><i>Reset forward</i>>, style=dashed];
+}

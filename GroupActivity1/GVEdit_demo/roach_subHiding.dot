@@ -1,0 +1,27 @@
+digraph DarkHSM {
+    rankdir=LR;
+    node [shape=ellipse];
+
+    // Initial pseudo state
+    init [shape=point];
+    InitPSubState STOP FORWARD BACKWARD;
+
+    // Initial transition
+    init -> InitPSubState [label=<<u>ES_INIT</u>>];
+    InitPSubState -> STOP [label=<<u>ES_ENTRY</u><br/><i>Enter STOP</i>>];
+
+    // STOP transitions
+    STOP -> BACKWARD [label=<<u>FL / FR</u><br/><i>Start timer, go back</i>>];
+    STOP -> FORWARD [label=<<u>BL / BR</u><br/><i>Start timer, go forward</i>>];
+
+    // FORWARD transitions
+    FORWARD -> STOP [label=<<u>ES_TIMEOUT (3)</u><br/><i>Stop after forward</i>>];
+
+    // BACKWARD transitions
+    BACKWARD -> STOP [label=<<u>ES_TIMEOUT (3)</u><br/><i>Stop after backward</i>>];
+
+    // Global fallback transition
+    STOP -> STOP [label=<<u>DARK</u><br/><i>Reset</i>>, style=dashed];
+    FORWARD -> STOP [label=<<u>DARK</u><br/><i>Reset</i>>, style=dashed];
+    BACKWARD -> STOP [label=<<u>DARK</u><br/><i>Reset</i>>, style=dashed];
+}
