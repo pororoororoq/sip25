@@ -70,7 +70,7 @@ uint8_t InitTemplateService(uint8_t Priority)
     // in here you write your initialization code
     // this includes all hardware and software initialization
     // that needs to occur.
-
+    printf("service init\n");
     // post the initial transition event
     ThisEvent.EventType = ES_INIT;
     ES_Timer_InitTimer(SERVICE_TIMER, TIMER_TICKS);
@@ -114,7 +114,7 @@ ES_Event RunTemplateService(ES_Event ThisEvent)
      in here you write your service code
      *******************************************/
     ES_EventTyp_t curEvent = lastEvent;
-
+    //int tmp = 0;
     switch (ThisEvent.EventType) {
     case ES_INIT:
         // No hardware initialization or single time setups, those
@@ -125,18 +125,26 @@ ES_Event RunTemplateService(ES_Event ThisEvent)
 
     case ES_TIMEOUT:
         ES_Timer_InitTimer(SERVICE_TIMER, TIMER_TICKS);
+        //printf(Roach_ReadFrontLeftBumper());
         if (Roach_ReadFrontLeftBumper() == BUMPER_TRIPPED) {
             curEvent = FL;
+            printf("FL");
         } else if (Roach_ReadFrontRightBumper() == BUMPER_TRIPPED) {
             curEvent = FR;
+            printf("FR");
         } else if (Roach_ReadRearLeftBumper() == BUMPER_TRIPPED) {
             curEvent = BL;
+            printf("BL");
         } else if (Roach_ReadRearRightBumper() == BUMPER_TRIPPED) {
             curEvent = BR;
+            printf("BR");
         } else {
             curEvent = NONE;
+            printf("NONE");
         }
+        //printf(tmp);
         if (curEvent != lastEvent) {
+            printf("something happened\n");
             lastEvent = curEvent;
             ReturnEvent.EventType = curEvent;
             ReturnEvent.EventParam = 0;

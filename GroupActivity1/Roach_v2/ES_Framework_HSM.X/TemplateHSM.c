@@ -42,7 +42,7 @@
  * PRIVATE #DEFINES                                                            *
  ******************************************************************************/
 //Include any defines you need to do
-
+#define DANCE_TIMEOUT 5000
 /*******************************************************************************
  * MODULE #DEFINES                                                             *
  ******************************************************************************/
@@ -162,7 +162,7 @@ ES_Event RunTemplateHSM(ES_Event ThisEvent) {
             RunLightHSM(ThisEvent);
             switch (ThisEvent.EventType) {
                 case DARK:
-                    ES_Timer_InitTimer(MVMT_TIMER, HSM_TIMEOUT);
+                    // ES_Timer_InitTimer(MVMT_TIMER, HSM_TIMEOUT);
                     // ES_Timer_InitTimer(BUMPED_TIMER, 500);
                     nextState = Dark;
                     makeTransition = TRUE;
@@ -174,7 +174,8 @@ ES_Event RunTemplateHSM(ES_Event ThisEvent) {
             RunDarkHSM(ThisEvent);
             switch (ThisEvent.EventType) {
                 case LIGHT:
-                    ES_Timer_InitTimer(MVMT_TIMER, HSM_TIMEOUT);
+                    //ES_Timer_InitTimer(MVMT_TIMER, HSM_TIMEOUT);
+                    ES_Timer_InitTimer(DANCE_TIMER, DANCE_TIMEOUT);
                     // ES_Timer_InitTimer(3, 3000);
                     nextState = Light;
                     makeTransition = TRUE;

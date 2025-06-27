@@ -37,8 +37,8 @@
 /*******************************************************************************
  * MODULE #DEFINES                                                             *
  ******************************************************************************/
-#define DANCE_TIMEOUT 10000
-#define TURN_TIMEOUT 500
+#define DANCE_TIMEOUT 5000
+#define TURN_TIMEOUT 1000
 
 typedef enum {
     InitPSubState,
@@ -137,11 +137,11 @@ ES_Event RunLightHSM(ES_Event ThisEvent) {
             break;
 
         case FORWARD: // in the first state, replace this with correct names
-            Roach_LeftMtrSpeed(80);
-            Roach_RightMtrSpeed(80);
+            Roach_LeftMtrSpeed(-80);
+            Roach_RightMtrSpeed(-70);
 
             if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 2) {
-                ES_Timer_InitTimer(DANCE_TIMER, 100);
+                ES_Timer_InitTimer(DANCE_TIMER, 2000);
                 nextState = DANCE;
                 makeTransition = TRUE;
             }
@@ -160,16 +160,16 @@ ES_Event RunLightHSM(ES_Event ThisEvent) {
 
             break;
         case TURN:
-            Roach_LeftMtrSpeed(-80);
-            Roach_RightMtrSpeed(-10);
+            Roach_LeftMtrSpeed(80);
+            Roach_RightMtrSpeed(10);
             if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 3) {
                 nextState = FORWARD;
                 makeTransition = TRUE;
             }
             break;
         case DANCE:
-            Roach_LeftMtrSpeed(-80);
-            Roach_RightMtrSpeed(80);
+            Roach_LeftMtrSpeed(80);
+            Roach_RightMtrSpeed(-80);
             if (ThisEvent.EventType == ES_TIMEOUT) {
                 ES_Timer_InitTimer(DANCE_TIMER, DANCE_TIMEOUT);
                 nextState = FORWARD;

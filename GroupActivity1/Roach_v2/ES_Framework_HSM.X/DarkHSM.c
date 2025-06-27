@@ -37,7 +37,7 @@
 /*******************************************************************************
  * MODULE #DEFINES                                                             *
  ******************************************************************************/
-#define BUMPED_PAUSE 500
+#define BUMPED_PAUSE 1000
 typedef enum {
     InitPSubState,
     FORWARD,
@@ -146,16 +146,16 @@ ES_Event RunDarkHSM(ES_Event ThisEvent) {
             }
             break;
         case FORWARD:
-            Roach_LeftMtrSpeed(80);
-            Roach_RightMtrSpeed(80);
+            Roach_LeftMtrSpeed(-80);
+            Roach_RightMtrSpeed(-80);
             if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 3) {
                 nextState = STOP;
                 makeTransition = TRUE;
             }
             break;
         case BACKWARD:
-            Roach_LeftMtrSpeed(-80);
-            Roach_RightMtrSpeed(-80);
+            Roach_LeftMtrSpeed(80);
+            Roach_RightMtrSpeed(80);
             if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 3) {
                 nextState = STOP;
                 makeTransition = TRUE;

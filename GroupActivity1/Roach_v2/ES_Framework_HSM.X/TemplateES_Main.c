@@ -1,4 +1,5 @@
 #include <BOARD.h>
+#include <roach.h>
 #include <xc.h>
 #include <stdio.h>
 #include "ES_Configure.h"
@@ -9,6 +10,10 @@ void main(void)
     ES_Return_t ErrorType;
 
     BOARD_Init();
+    Roach_Init();
+    
+    printf("i did the roach init!");
+    //printf(Roach_LeftMtrSpeed(80));
 
     printf("Starting ES Framework Template\r\n");
     printf("using the 2nd Generation Events & Services Framework\r\n");
