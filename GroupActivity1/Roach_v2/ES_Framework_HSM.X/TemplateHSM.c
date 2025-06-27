@@ -174,6 +174,9 @@ ES_Event RunTemplateHSM(ES_Event ThisEvent) {
             RunDarkHSM(ThisEvent);
             switch (ThisEvent.EventType) {
                 case LIGHT:
+                    if (TIMERS_IsTimerActive(BUMPED_TIMER) == 1) {
+                        break;
+                    }
                     //ES_Timer_InitTimer(MVMT_TIMER, HSM_TIMEOUT);
                     ES_Timer_InitTimer(DANCE_TIMER, DANCE_TIMEOUT);
                     // ES_Timer_InitTimer(3, 3000);

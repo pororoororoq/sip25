@@ -69010,3 +69010,5771 @@ static const char *StateNames[] = {
 };
 
 
+[DEBUG]2025-06-27 11:40:43,640: <re.Match object; span=(1087, 1774), match='typedef enum {\n    ES_NO_EVENT, ES_ERROR, /* use>
+[DEBUG]2025-06-27 11:40:43,640: ['ES_NO_EVENT', 'ES_ERROR', 'ES_INIT', 'ES_ENTRY', 'ES_EXIT', 'ES_KEYINPUT', 'ES_LISTEVENTS', 'ES_TIMEOUT', 'ES_TIMERACTIVE', 'ES_TIMERSTOPPED', 'LIGHT', 'DARK', 'FR', 'FL', 'BR', 'BL', 'NONE', 'NUMBEROFEVENTS']
+[DEBUG]2025-06-27 11:40:43,641: 
+static const char *EventNames[] = {
+	"ES_NO_EVENT",
+	"ES_ERROR",
+	"ES_INIT",
+	"ES_ENTRY",
+	"ES_EXIT",
+	"ES_KEYINPUT",
+	"ES_LISTEVENTS",
+	"ES_TIMEOUT",
+	"ES_TIMERACTIVE",
+	"ES_TIMERSTOPPED",
+	"LIGHT",
+	"DARK",
+	"FR",
+	"FL",
+	"BR",
+	"BL",
+	"NONE",
+	"NUMBEROFEVENTS",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,646: None
+[DEBUG]2025-06-27 11:40:43,646: None
+[DEBUG]2025-06-27 11:40:43,647: None
+[DEBUG]2025-06-27 11:40:43,647: None
+[DEBUG]2025-06-27 11:40:43,647: None
+[DEBUG]2025-06-27 11:40:43,648: None
+[DEBUG]2025-06-27 11:40:43,648: None
+[DEBUG]2025-06-27 11:40:43,648: None
+[DEBUG]2025-06-27 11:40:43,648: None
+[DEBUG]2025-06-27 11:40:43,649: None
+[DEBUG]2025-06-27 11:40:43,649: None
+[DEBUG]2025-06-27 11:40:43,649: None
+[DEBUG]2025-06-27 11:40:43,649: None
+[DEBUG]2025-06-27 11:40:43,649: None
+[DEBUG]2025-06-27 11:40:43,650: None
+[DEBUG]2025-06-27 11:40:43,650: None
+[DEBUG]2025-06-27 11:40:43,650: None
+[DEBUG]2025-06-27 11:40:43,650: None
+[DEBUG]2025-06-27 11:40:43,650: None
+[DEBUG]2025-06-27 11:40:43,650: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,652: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,653: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,654: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,655: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,656: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,657: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,658: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,659: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,660: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,662: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,663: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,664: None
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,665: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,666: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,667: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,668: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,669: None
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,670: <re.Match object; span=(1635, 1741), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,671: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN', 'DANCE']
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,672: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,717: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,718: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:40:43,720: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,685: <re.Match object; span=(1087, 1774), match='typedef enum {\n    ES_NO_EVENT, ES_ERROR, /* use>
+[DEBUG]2025-06-27 11:48:57,685: ['ES_NO_EVENT', 'ES_ERROR', 'ES_INIT', 'ES_ENTRY', 'ES_EXIT', 'ES_KEYINPUT', 'ES_LISTEVENTS', 'ES_TIMEOUT', 'ES_TIMERACTIVE', 'ES_TIMERSTOPPED', 'LIGHT', 'DARK', 'FR', 'FL', 'BR', 'BL', 'NONE', 'NUMBEROFEVENTS']
+[DEBUG]2025-06-27 11:48:57,685: 
+static const char *EventNames[] = {
+	"ES_NO_EVENT",
+	"ES_ERROR",
+	"ES_INIT",
+	"ES_ENTRY",
+	"ES_EXIT",
+	"ES_KEYINPUT",
+	"ES_LISTEVENTS",
+	"ES_TIMEOUT",
+	"ES_TIMERACTIVE",
+	"ES_TIMERSTOPPED",
+	"LIGHT",
+	"DARK",
+	"FR",
+	"FL",
+	"BR",
+	"BL",
+	"NONE",
+	"NUMBEROFEVENTS",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,690: None
+[DEBUG]2025-06-27 11:48:57,690: None
+[DEBUG]2025-06-27 11:48:57,692: None
+[DEBUG]2025-06-27 11:48:57,692: None
+[DEBUG]2025-06-27 11:48:57,692: None
+[DEBUG]2025-06-27 11:48:57,693: None
+[DEBUG]2025-06-27 11:48:57,693: None
+[DEBUG]2025-06-27 11:48:57,693: None
+[DEBUG]2025-06-27 11:48:57,693: None
+[DEBUG]2025-06-27 11:48:57,694: None
+[DEBUG]2025-06-27 11:48:57,694: None
+[DEBUG]2025-06-27 11:48:57,694: None
+[DEBUG]2025-06-27 11:48:57,694: None
+[DEBUG]2025-06-27 11:48:57,694: None
+[DEBUG]2025-06-27 11:48:57,696: None
+[DEBUG]2025-06-27 11:48:57,696: None
+[DEBUG]2025-06-27 11:48:57,696: None
+[DEBUG]2025-06-27 11:48:57,696: None
+[DEBUG]2025-06-27 11:48:57,696: None
+[DEBUG]2025-06-27 11:48:57,696: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,697: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,698: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,700: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,702: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,705: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,706: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,709: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,711: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,712: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,714: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,715: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,717: None
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,719: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,720: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,721: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,724: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,726: None
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,728: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,729: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,730: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,733: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,735: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:48:57,736: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,211: <re.Match object; span=(1087, 1774), match='typedef enum {\n    ES_NO_EVENT, ES_ERROR, /* use>
+[DEBUG]2025-06-27 11:49:42,231: ['ES_NO_EVENT', 'ES_ERROR', 'ES_INIT', 'ES_ENTRY', 'ES_EXIT', 'ES_KEYINPUT', 'ES_LISTEVENTS', 'ES_TIMEOUT', 'ES_TIMERACTIVE', 'ES_TIMERSTOPPED', 'LIGHT', 'DARK', 'FR', 'FL', 'BR', 'BL', 'NONE', 'NUMBEROFEVENTS']
+[DEBUG]2025-06-27 11:49:42,231: 
+static const char *EventNames[] = {
+	"ES_NO_EVENT",
+	"ES_ERROR",
+	"ES_INIT",
+	"ES_ENTRY",
+	"ES_EXIT",
+	"ES_KEYINPUT",
+	"ES_LISTEVENTS",
+	"ES_TIMEOUT",
+	"ES_TIMERACTIVE",
+	"ES_TIMERSTOPPED",
+	"LIGHT",
+	"DARK",
+	"FR",
+	"FL",
+	"BR",
+	"BL",
+	"NONE",
+	"NUMBEROFEVENTS",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,235: None
+[DEBUG]2025-06-27 11:49:42,235: None
+[DEBUG]2025-06-27 11:49:42,236: None
+[DEBUG]2025-06-27 11:49:42,236: None
+[DEBUG]2025-06-27 11:49:42,236: None
+[DEBUG]2025-06-27 11:49:42,237: None
+[DEBUG]2025-06-27 11:49:42,237: None
+[DEBUG]2025-06-27 11:49:42,237: None
+[DEBUG]2025-06-27 11:49:42,237: None
+[DEBUG]2025-06-27 11:49:42,238: None
+[DEBUG]2025-06-27 11:49:42,238: None
+[DEBUG]2025-06-27 11:49:42,238: None
+[DEBUG]2025-06-27 11:49:42,238: None
+[DEBUG]2025-06-27 11:49:42,238: None
+[DEBUG]2025-06-27 11:49:42,239: None
+[DEBUG]2025-06-27 11:49:42,239: None
+[DEBUG]2025-06-27 11:49:42,239: None
+[DEBUG]2025-06-27 11:49:42,239: None
+[DEBUG]2025-06-27 11:49:42,239: None
+[DEBUG]2025-06-27 11:49:42,239: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,240: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,241: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,242: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,244: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,245: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,248: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,250: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,252: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,253: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,254: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,255: None
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,256: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,257: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,258: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,267: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,269: None
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,271: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,274: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:49:42,275: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,219: <re.Match object; span=(1087, 1774), match='typedef enum {\n    ES_NO_EVENT, ES_ERROR, /* use>
+[DEBUG]2025-06-27 11:51:34,219: ['ES_NO_EVENT', 'ES_ERROR', 'ES_INIT', 'ES_ENTRY', 'ES_EXIT', 'ES_KEYINPUT', 'ES_LISTEVENTS', 'ES_TIMEOUT', 'ES_TIMERACTIVE', 'ES_TIMERSTOPPED', 'LIGHT', 'DARK', 'FR', 'FL', 'BR', 'BL', 'NONE', 'NUMBEROFEVENTS']
+[DEBUG]2025-06-27 11:51:34,220: 
+static const char *EventNames[] = {
+	"ES_NO_EVENT",
+	"ES_ERROR",
+	"ES_INIT",
+	"ES_ENTRY",
+	"ES_EXIT",
+	"ES_KEYINPUT",
+	"ES_LISTEVENTS",
+	"ES_TIMEOUT",
+	"ES_TIMERACTIVE",
+	"ES_TIMERSTOPPED",
+	"LIGHT",
+	"DARK",
+	"FR",
+	"FL",
+	"BR",
+	"BL",
+	"NONE",
+	"NUMBEROFEVENTS",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,226: None
+[DEBUG]2025-06-27 11:51:34,226: None
+[DEBUG]2025-06-27 11:51:34,228: None
+[DEBUG]2025-06-27 11:51:34,228: None
+[DEBUG]2025-06-27 11:51:34,228: None
+[DEBUG]2025-06-27 11:51:34,230: None
+[DEBUG]2025-06-27 11:51:34,230: None
+[DEBUG]2025-06-27 11:51:34,230: None
+[DEBUG]2025-06-27 11:51:34,230: None
+[DEBUG]2025-06-27 11:51:34,232: None
+[DEBUG]2025-06-27 11:51:34,232: None
+[DEBUG]2025-06-27 11:51:34,232: None
+[DEBUG]2025-06-27 11:51:34,232: None
+[DEBUG]2025-06-27 11:51:34,232: None
+[DEBUG]2025-06-27 11:51:34,234: None
+[DEBUG]2025-06-27 11:51:34,234: None
+[DEBUG]2025-06-27 11:51:34,234: None
+[DEBUG]2025-06-27 11:51:34,234: None
+[DEBUG]2025-06-27 11:51:34,234: None
+[DEBUG]2025-06-27 11:51:34,234: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,236: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,238: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,240: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,242: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,244: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,246: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,248: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,250: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,253: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,255: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,259: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,261: None
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,263: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,264: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,266: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,268: None
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,270: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,271: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,272: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,275: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,276: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:51:34,277: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,443: <re.Match object; span=(1087, 1774), match='typedef enum {\n    ES_NO_EVENT, ES_ERROR, /* use>
+[DEBUG]2025-06-27 11:56:46,444: ['ES_NO_EVENT', 'ES_ERROR', 'ES_INIT', 'ES_ENTRY', 'ES_EXIT', 'ES_KEYINPUT', 'ES_LISTEVENTS', 'ES_TIMEOUT', 'ES_TIMERACTIVE', 'ES_TIMERSTOPPED', 'LIGHT', 'DARK', 'FR', 'FL', 'BR', 'BL', 'NONE', 'NUMBEROFEVENTS']
+[DEBUG]2025-06-27 11:56:46,444: 
+static const char *EventNames[] = {
+	"ES_NO_EVENT",
+	"ES_ERROR",
+	"ES_INIT",
+	"ES_ENTRY",
+	"ES_EXIT",
+	"ES_KEYINPUT",
+	"ES_LISTEVENTS",
+	"ES_TIMEOUT",
+	"ES_TIMERACTIVE",
+	"ES_TIMERSTOPPED",
+	"LIGHT",
+	"DARK",
+	"FR",
+	"FL",
+	"BR",
+	"BL",
+	"NONE",
+	"NUMBEROFEVENTS",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,447: None
+[DEBUG]2025-06-27 11:56:46,447: None
+[DEBUG]2025-06-27 11:56:46,448: None
+[DEBUG]2025-06-27 11:56:46,448: None
+[DEBUG]2025-06-27 11:56:46,448: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,450: None
+[DEBUG]2025-06-27 11:56:46,451: None
+[DEBUG]2025-06-27 11:56:46,451: None
+[DEBUG]2025-06-27 11:56:46,451: None
+[DEBUG]2025-06-27 11:56:46,451: None
+[DEBUG]2025-06-27 11:56:46,451: None
+[DEBUG]2025-06-27 11:56:46,451: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,452: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,454: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,455: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,458: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,460: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,462: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,464: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,467: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,468: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,470: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,471: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,473: None
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,474: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,475: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,476: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,478: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,479: None
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,480: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,482: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,485: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:56:46,486: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:15,986: <re.Match object; span=(1087, 1774), match='typedef enum {\n    ES_NO_EVENT, ES_ERROR, /* use>
+[DEBUG]2025-06-27 11:58:15,986: ['ES_NO_EVENT', 'ES_ERROR', 'ES_INIT', 'ES_ENTRY', 'ES_EXIT', 'ES_KEYINPUT', 'ES_LISTEVENTS', 'ES_TIMEOUT', 'ES_TIMERACTIVE', 'ES_TIMERSTOPPED', 'LIGHT', 'DARK', 'FR', 'FL', 'BR', 'BL', 'NONE', 'NUMBEROFEVENTS']
+[DEBUG]2025-06-27 11:58:15,987: 
+static const char *EventNames[] = {
+	"ES_NO_EVENT",
+	"ES_ERROR",
+	"ES_INIT",
+	"ES_ENTRY",
+	"ES_EXIT",
+	"ES_KEYINPUT",
+	"ES_LISTEVENTS",
+	"ES_TIMEOUT",
+	"ES_TIMERACTIVE",
+	"ES_TIMERSTOPPED",
+	"LIGHT",
+	"DARK",
+	"FR",
+	"FL",
+	"BR",
+	"BL",
+	"NONE",
+	"NUMBEROFEVENTS",
+};
+
+
+[DEBUG]2025-06-27 11:58:15,993: None
+[DEBUG]2025-06-27 11:58:15,993: None
+[DEBUG]2025-06-27 11:58:15,995: None
+[DEBUG]2025-06-27 11:58:15,995: None
+[DEBUG]2025-06-27 11:58:15,995: None
+[DEBUG]2025-06-27 11:58:15,997: None
+[DEBUG]2025-06-27 11:58:15,997: None
+[DEBUG]2025-06-27 11:58:15,997: None
+[DEBUG]2025-06-27 11:58:15,997: None
+[DEBUG]2025-06-27 11:58:15,999: None
+[DEBUG]2025-06-27 11:58:15,999: None
+[DEBUG]2025-06-27 11:58:15,999: None
+[DEBUG]2025-06-27 11:58:15,999: None
+[DEBUG]2025-06-27 11:58:15,999: None
+[DEBUG]2025-06-27 11:58:16,001: None
+[DEBUG]2025-06-27 11:58:16,001: None
+[DEBUG]2025-06-27 11:58:16,001: None
+[DEBUG]2025-06-27 11:58:16,001: None
+[DEBUG]2025-06-27 11:58:16,001: None
+[DEBUG]2025-06-27 11:58:16,001: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,003: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,005: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,007: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,008: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,010: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,012: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,014: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,016: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,018: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,019: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,021: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,022: None
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,024: <re.Match object; span=(2168, 2241), match='typedef enum {\n    InitPState,\n    Light,\n    >
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,025: ['InitPState', 'Light', 'Dark']
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,026: 
+static const char *StateNames[] = {
+	"InitPState",
+	"Light",
+	"Dark",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,028: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,029: None
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,031: <re.Match object; span=(1635, 1753), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: ['InitPSubState', 'FORWARD', 'BACKWARD', 'TURN1', 'TURN2', 'DANCE']
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,032: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"TURN1",
+	"TURN2",
+	"DANCE",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,034: <re.Match object; span=(1606, 1701), match='typedef enum {\n    InitPSubState,\n    FORWARD,\>
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,035: ['InitPSubState', 'FORWARD', 'BACKWARD', 'STOP']
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+
+[DEBUG]2025-06-27 11:58:16,036: 
+static const char *StateNames[] = {
+	"InitPSubState",
+	"FORWARD",
+	"BACKWARD",
+	"STOP",
+};
+
+

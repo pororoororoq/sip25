@@ -44,7 +44,8 @@ typedef enum {
     InitPSubState,
     FORWARD,
     BACKWARD,
-    TURN,
+    TURN1,
+    TURN2,
     DANCE,
 } TemplateSubHSMState_t;
 
@@ -52,7 +53,8 @@ static const char *StateNames[] = {
 	"InitPSubState",
 	"FORWARD",
 	"BACKWARD",
-	"TURN",
+	"TURN1",
+	"TURN2",
 	"DANCE",
 };
 
@@ -146,22 +148,30 @@ ES_Event RunLightHSM(ES_Event ThisEvent) {
                 makeTransition = TRUE;
             }
 
-            if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 3) {
-                ES_Timer_InitTimer(MVMT_TIMER, TURN_TIMEOUT);
-                nextState = TURN;
+            if (ThisEvent.EventType == FR || ThisEvent.EventType == FL) {
+                ES_Timer_InitTimer(BUMPED_TIMER, TURN_TIMEOUT);
+                nextState = TURN1;
                 makeTransition = TRUE;
             }
 
-            if (ThisEvent.EventType == FR || ThisEvent.EventType == FL) {
+            if (ThisEvent.EventType == BR || ThisEvent.EventType == BL) {
                 ES_Timer_InitTimer(BUMPED_TIMER, TURN_TIMEOUT);
-                nextState = TURN;
+                nextState = TURN2;
                 makeTransition = TRUE;
             }
 
             break;
-        case TURN:
+        case TURN1:
             Roach_LeftMtrSpeed(80);
             Roach_RightMtrSpeed(10);
+            if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 3) {
+                nextState = FORWARD;
+                makeTransition = TRUE;
+            }
+            break;
+        case TURN2:
+            Roach_LeftMtrSpeed(-80);
+            Roach_RightMtrSpeed(-10);
             if (ThisEvent.EventType == ES_TIMEOUT && ThisEvent.EventParam == 3) {
                 nextState = FORWARD;
                 makeTransition = TRUE;
