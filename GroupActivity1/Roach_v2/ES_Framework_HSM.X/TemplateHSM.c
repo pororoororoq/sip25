@@ -175,6 +175,7 @@ ES_Event RunTemplateHSM(ES_Event ThisEvent) {
             switch (ThisEvent.EventType) {
                 case LIGHT:
                     if (TIMERS_IsTimerActive(BUMPED_TIMER) == 1) {
+                        printf("yayyy");
                         break;
                     }
                     //ES_Timer_InitTimer(MVMT_TIMER, HSM_TIMEOUT);

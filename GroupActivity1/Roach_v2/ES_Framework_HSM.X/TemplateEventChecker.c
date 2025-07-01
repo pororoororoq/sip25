@@ -36,8 +36,8 @@
  * MODULE #DEFINES                                                             *
  ******************************************************************************/
 #define BATTERY_DISCONNECT_THRESHOLD 175
-#define DARK_THRESHOLD 400
-#define LIGHT_THRESHOLD 500
+#define DARK_THRESHOLD 600
+#define LIGHT_THRESHOLD 400
 
 /*******************************************************************************
  * EVENTCHECKER_TEST SPECIFIC CODE                                                             *
