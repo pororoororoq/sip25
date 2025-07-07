@@ -152,6 +152,62 @@ class MainWindow(QMainWindow):
         self.robot_sim_opt.finished_signal.connect(self.updateGUIOpt)
         self.robot_sim_opt.update_plots_signal.connect(self.updatePlotsOpt)
 
+        self.plot_landmarks()
+
+    def plot_landmarks(self):
+        """
+        Plots landmarks from unoptimized and optimized files on the scene and sets the scene rect to fit all points.
+        """
+        import os
+        from PyQt5.QtWidgets import QGraphicsEllipseItem
+        from PyQt5.QtGui import QBrush, QColor
+        
+        # Helper to read points
+        def read_points(filename):
+            points = []
+            if not os.path.exists(filename):
+                return points
+            with open(filename, 'r') as f:
+                for line in f:
+                    if line.strip() == '':
+                        continue
+                    x_str, y_str = line.strip().split()
+                    x, y = float(x_str), float(y_str)
+                    points.append((x, y))
+            return points
+
+        unopt_file = os.path.join(os.path.dirname(__file__), '../data/range_landmarks_unoptimized.txt')
+        opt_file = os.path.join(os.path.dirname(__file__), '../data/range_landmarks_optimized.txt')
+        unopt_points = read_points(unopt_file)
+        opt_points = read_points(opt_file)
+        all_points = unopt_points + opt_points
+
+        # Compute bounds
+        if all_points:
+            xs, ys = zip(*all_points)
+            margin = 2.0  # meters, add margin around all points
+            min_x, max_x = min(xs)-margin, max(xs)+margin
+            min_y, max_y = min(ys)-margin, max(ys)+margin
+            # Convert to scene coordinates (scale by 100, flip y)
+            left = min_x*100
+            right = max_x*100
+            top = -max_y*100
+            bottom = -min_y*100
+            width = right - left
+            height = bottom - top
+            self.scene.setSceneRect(left, top, width, height)
+
+        # Helper to plot points
+        def plot_points(points, color):
+            for x, y in points:
+                ellipse = QGraphicsEllipseItem(x*100-3, -y*100-3, 6, 6)
+                ellipse.setBrush(QBrush(QColor(color)))
+                ellipse.setPen(QColor(color))
+                self.scene.addItem(ellipse)
+
+        plot_points(unopt_points, "#FFA7A7")
+        plot_points(opt_points, "#B2FFB2")
+
     def updateGUIUnopt(self, robot_state: RobotState) -> None:
         """
         Updates the canvas and graphs for the unoptimized robot
