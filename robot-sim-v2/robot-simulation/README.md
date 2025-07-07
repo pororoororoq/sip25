@@ -1,3 +1,9 @@
+# New Things
+## GTSAM Integration
+The .ipynb files are examples from the GTSAM repo--modifications are made to store the poses in .txt files.
+## Visualizations
+Visualizations now support *replay mode* as seen in *display/robot_simulate.py*'s RobotSimulate1 class. With the poses stored in the *data/* folder, we are able to graph the robot's movements pre- and post- optimization (done with GTSAM). 
+# Everything Below is From Original Repo's README
 # 2D Wheeled Robot Dynamics Simulation
 ## Description
 This project aims to simulate a [differential drive robot](https://en.wikipedia.org/wiki/Differential_wheeled_robot) by implementing the kinematics of the vehicle
