@@ -2,7 +2,9 @@
 ## GTSAM Integration
 The .ipynb files are examples from the GTSAM repo--modifications are made to store the poses in .txt files.
 ## Visualizations
-Visualizations now support *replay mode* as seen in *display/robot_simulate.py*'s RobotSimulate1 class. With the poses stored in the *data/* folder, we are able to graph the robot's movements pre- and post- optimization (done with GTSAM). 
+Visualizations now support "replay mode" as seen in *display/robot_simulate.py*'s RobotSimulate1 class. With the poses stored in the *data/* folder, we are able to graph the robot's movements pre- and post- optimization (done with GTSAM). 
+
+Because different simulations have more/less poses--*range_slam.ipynb* has very "detailed" poses, while *loop_closure.ipynb* does not--it is recommended to modify the *move_step_interval* and *turn_step_interval* variables in the RobotSimulate1 class to speed up or slow down the robot's movement.
 # Everything Below is From Original Repo's README
 # 2D Wheeled Robot Dynamics Simulation
 ## Description
