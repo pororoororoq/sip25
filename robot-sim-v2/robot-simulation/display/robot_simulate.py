@@ -22,7 +22,7 @@ class RobotSimulate1(QObject):
     # sends parameters necessary to update the plots
     update_plots_signal = pyqtSignal(float, RobotState, RobotDerivativeState)
 
-    def __init__(self, replay_filename):
+    def __init__(self, replay_filename, move_speed = 1, turn_speed = 1):
         super().__init__(parent=None)
         self.dt = dt # time steps
         self.time = 0. # initialize simulation time ot 0
@@ -31,8 +31,8 @@ class RobotSimulate1(QObject):
         self.replay_poses = []
         self.replay_mode = False
         self.replay_index = 0
-        self.move_step_interval = 1 # Number of timer ticks for moving between poses
-        self.turn_step_interval = 1   # Number of timer ticks for turning in place
+        self.move_step_interval = move_speed # Number of timer ticks for moving between poses
+        self.turn_step_interval = turn_speed   # Number of timer ticks for turning in place
         self.replay_step_interval = self.move_step_interval + self.turn_step_interval
         self.replay_interp_step = 0
         self.current_pose = None

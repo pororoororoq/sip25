@@ -33,13 +33,16 @@ class MainWindow(QMainWindow):
     -------
         window (MainWindow): PyQt5 window object
     """
-    def __init__(self, base_names="range", plot_landmarks_enabled=True) -> None:
+    def __init__(self, base_names="range", plot_landmarks_enabled=True, move_speed=1, turn_speed=1) -> None:
         super().__init__()
         self.setWindowTitle("Robot Simulation")
         self.simulationPaused = True # begin with a paused simulation
         self.plot_landmarks_enabled = plot_landmarks_enabled
         self.base_names = base_names if isinstance(base_names, list) else [base_names]
         self.landmark_files, self.sim_files = self.expand_base_names(self.base_names)
+        # Check if all landmark files exist; if not, disable landmark plotting
+        if not all(os.path.exists(f) for f in self.landmark_files):
+            self.plot_landmarks_enabled = False
 
         ### ----- pyqt5 application window ----- ###
         self.setGeometry(100, 100, window_width, window_height)
@@ -132,11 +135,11 @@ class MainWindow(QMainWindow):
         ### ----- Simulation Thread ----- ###
         # Unoptimized robot
         self.sim_thread_unopt = QThread()
-        self.robot_sim_unopt = RobotSimulate1(self.sim_files[0])
+        self.robot_sim_unopt = RobotSimulate1(self.sim_files[0], move_speed, turn_speed)
         self.robot_sim_unopt.moveToThread(self.sim_thread_unopt)
         # Optimized robot
         self.sim_thread_opt = QThread()
-        self.robot_sim_opt = RobotSimulate1(self.sim_files[1])
+        self.robot_sim_opt = RobotSimulate1(self.sim_files[1], move_speed, turn_speed)
         self.robot_sim_opt.moveToThread(self.sim_thread_opt)
 
         # Add second robot and path to the scene (different color for clarity)
@@ -196,7 +199,8 @@ class MainWindow(QMainWindow):
             if plot:
                 color = colors[idx % len(colors)]
                 for x, y in pts:
-                    ellipse = QGraphicsEllipseItem(x*100-3, -y*100-3, 6, 6)
+                    landmark_rad = 5
+                    ellipse = QGraphicsEllipseItem(x*100-landmark_rad, -y*100-landmark_rad, 2 * landmark_rad, 2 * landmark_rad)
                     ellipse.setBrush(QBrush(QColor(color)))
                     ellipse.setPen(QColor(color))
                     self.scene.addItem(ellipse)

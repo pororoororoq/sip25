@@ -6,7 +6,7 @@ import pyqtgraph.opengl as gl
 
 def main():
     app = QApplication(sys.argv)
-    window = MainWindow("range", True)
+    window = MainWindow("loop", False, move_speed=150, turn_speed=50)
     window.show()
     sys.exit(app.exec_())
 
