@@ -22,6 +22,7 @@ from .robot_simulate import RobotSimulate, RobotSimulate1
 from utilities.constants import *
 
 from PyQt5.QtWidgets import QWidget
+from PyQt5.QtGui import QColor
 
 class MainWindow(QMainWindow):
     """
@@ -53,12 +54,12 @@ class MainWindow(QMainWindow):
         self.scene = QGraphicsScene(canvas)
         self.scene.setBackgroundBrush(background_color)
 
-        self.robot = RobotDisplay() # create robot instance at the origin facing x+
-        self.robot_path = Path(line_color, 1.5) # path to follow robot's position
+        self.robot_unopt = RobotDisplay() # create robot instance at the origin facing x+
+        self.robot_path_unopt = Path(QColor('red'), 1.5) # path to follow robot's position
 
         # add robot and path to the scene
-        self.scene.addItem(self.robot)
-        self.scene.addItem(self.robot_path)
+        self.scene.addItem(self.robot_unopt)
+        self.scene.addItem(self.robot_path_unopt)
 
         canvas.setScene(self.scene) # add the scene to the canvas
 
@@ -123,26 +124,49 @@ class MainWindow(QMainWindow):
         mainWdiget.setLayout(layout)
 
         ### ----- Simulation Thread ----- ###
-        self.sim_thread = QThread() # create thread for simulation
-        self.robot_sim = RobotSimulate1() # create simulation object
-        self.robot_sim.moveToThread(self.sim_thread) # move object into thread
+        # Unoptimized robot
+        self.sim_thread_unopt = QThread()
+        self.robot_sim_unopt = RobotSimulate1("range_unoptimized.txt")
+        self.robot_sim_unopt.moveToThread(self.sim_thread_unopt)
+        # Optimized robot
+        self.sim_thread_opt = QThread()
+        self.robot_sim_opt = RobotSimulate1("range_optimized.txt")
+        self.robot_sim_opt.moveToThread(self.sim_thread_opt)
 
-        # connect thread signals
-        self.sim_thread.started.connect(self.robot_sim.start_signal.emit)
-        self.sim_thread.finished.connect(self.robot_sim.stop_signal.emit)
-        self.robot_sim.finished_signal.connect(self.updateGUI)
-        self.robot_sim.update_plots_signal.connect(self.updatePlots)
+        # Add second robot and path to the scene (different color for clarity)
+        self.robot_opt = RobotDisplay()
+        self.robot_path_opt = Path(QColor('green'), 1.5)
+        self.scene.addItem(self.robot_opt)
+        self.scene.addItem(self.robot_path_opt)
 
-    def updateGUI(self, robot_state: RobotState) -> None:
-        """
-        Updates the canvas and graphs
-        """
-        self.robot_path.updatePath(robot_state.px, robot_state.py)
-        self.robot.updatePosition(robot_state.px, robot_state.py, robot_state.phi)
+        # Connect thread signals for both robots
+        self.sim_thread_unopt.started.connect(self.robot_sim_unopt.start_signal.emit)
+        self.sim_thread_unopt.finished.connect(self.robot_sim_unopt.stop_signal.emit)
+        self.robot_sim_unopt.finished_signal.connect(self.updateGUIUnopt)
+        self.robot_sim_unopt.update_plots_signal.connect(self.updatePlotsUnopt)
 
-    def updatePlots(self, time: float, state: RobotState, wheel_vel: RobotDerivativeState) -> None:
+        self.sim_thread_opt.started.connect(self.robot_sim_opt.start_signal.emit)
+        self.sim_thread_opt.finished.connect(self.robot_sim_opt.stop_signal.emit)
+        self.robot_sim_opt.finished_signal.connect(self.updateGUIOpt)
+        self.robot_sim_opt.update_plots_signal.connect(self.updatePlotsOpt)
+
+    def updateGUIUnopt(self, robot_state: RobotState) -> None:
         """
-        Updates GUI graphs
+        Updates the canvas and graphs for the unoptimized robot
+        """
+        self.robot_path_unopt.updatePath(robot_state.px, robot_state.py)
+        self.robot_unopt.updatePosition(robot_state.px, robot_state.py, robot_state.phi)
+
+    def updateGUIOpt(self, robot_state: RobotState) -> None:
+        """
+        Updates the canvas and graphs for the optimized robot
+        """
+        self.robot_path_opt.updatePath(robot_state.px, robot_state.py)
+        self.robot_opt.updatePosition(robot_state.px, robot_state.py, robot_state.phi)
+
+    def updatePlotsUnopt(self, time: float, state: RobotState, wheel_vel: RobotDerivativeState) -> None:
+        """
+        Updates GUI graphs for the unoptimized robot
         """
         self.x_pos_plot.update_plot_signal.emit(time, [state.px])
         self.y_pos_plot.update_plot_signal.emit(time, [state.py])
@@ -151,12 +175,19 @@ class MainWindow(QMainWindow):
         self.vl_plot.update_plot_signal.emit(time, [wheel_vel.vx])
         self.vr_plot.update_plot_signal.emit(time, [wheel_vel.vy])
 
+    def updatePlotsOpt(self, time: float, state: RobotState, wheel_vel: RobotDerivativeState) -> None:
+        """
+        Updates GUI graphs for the optimized robot
+        """
+        # Optionally, add new plots for the optimized robot or overlay on existing plots
+        pass
+
     def playSimulation(self):
         """
         Starts simulation if currently stopped
         """
-        # start thread
-        self.sim_thread.start()
+        self.sim_thread_unopt.start()
+        self.sim_thread_opt.start()
 
         # update button statuses
         self.play_button.setDisabled(True)
@@ -167,7 +198,8 @@ class MainWindow(QMainWindow):
         """
         Pauses simulation if currently playing
         """
-        self.sim_thread.quit() # stop the thread
+        self.sim_thread_unopt.quit()
+        self.sim_thread_opt.quit()
 
         # update the button statues
         self.play_button.setDisabled(False)
@@ -181,15 +213,21 @@ class MainWindow(QMainWindow):
         """
         self.pauseSimulation() # pause the simulation
 
-        # reset robot object
-        self.robot_sim.reset()
-        robot_state = self.robot_sim.robot_model.getState()
-        self.scene.removeItem(self.robot)
-        self.scene.addItem(self.robot)
-        self.robot.updatePosition(robot_state.px, robot_state.py, robot_state.phi)
+        # reset robot objects
+        self.robot_sim_unopt.reset()
+        self.robot_sim_opt.reset()
+        robot_state_unopt = self.robot_sim_unopt.robot_model.getState()
+        robot_state_opt = self.robot_sim_opt.robot_model.getState()
+        self.scene.removeItem(self.robot_unopt)
+        self.scene.removeItem(self.robot_opt)
+        self.scene.addItem(self.robot_unopt)
+        self.scene.addItem(self.robot_opt)
+        self.robot_unopt.updatePosition(robot_state_unopt.px, robot_state_unopt.py, robot_state_unopt.phi)
+        self.robot_opt.updatePosition(robot_state_opt.px, robot_state_opt.py, robot_state_opt.phi)
 
-        # reset path object
-        self.robot_path.clear_path()
+        # reset path objects
+        self.robot_path_unopt.clear_path()
+        self.robot_path_opt.clear_path()
 
         # reset the plots
         self.x_pos_plot.reset_plot()

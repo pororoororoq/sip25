@@ -22,7 +22,7 @@ class RobotSimulate1(QObject):
     # sends parameters necessary to update the plots
     update_plots_signal = pyqtSignal(float, RobotState, RobotDerivativeState)
 
-    def __init__(self) -> None:
+    def __init__(self, replay_filename):
         super().__init__(parent=None)
         self.dt = dt # time steps
         self.time = 0. # initialize simulation time ot 0
@@ -31,14 +31,14 @@ class RobotSimulate1(QObject):
         self.replay_poses = []
         self.replay_mode = False
         self.replay_index = 0
-        self.move_step_interval = 200 # Number of timer ticks for moving between poses
-        self.turn_step_interval = 50   # Number of timer ticks for turning in place
+        self.move_step_interval = 1 # Number of timer ticks for moving between poses
+        self.turn_step_interval = 1   # Number of timer ticks for turning in place
         self.replay_step_interval = self.move_step_interval + self.turn_step_interval
         self.replay_interp_step = 0
         self.current_pose = None
         self.next_pose = None
         # Set the replay file path in a variable for easy modification
-        self.replay_filename = 'planar_optimized.txt'  # Change this to use a different factor graph file
+        self.replay_filename = replay_filename  # Now set from parameter
         replay_path = os.path.join(os.path.dirname(__file__), f'../data/{self.replay_filename}')
         if os.path.exists(replay_path):
             with open(replay_path, 'r') as f:
