@@ -6,10 +6,11 @@ Manages all the widgets on the user interface as well as the functions for inter
 """
 
 import sys
+import os
 from PyQt5.QtWidgets import (QMainWindow, QWidget, QGridLayout, QGraphicsView,
                              QGraphicsScene, QHBoxLayout)
 
-from PyQt5.QtCore import QThread, QMetaObject
+from PyQt5.QtCore import QThread, QMetaObject, QTimer
 
 import numpy as np
 
@@ -32,10 +33,15 @@ class MainWindow(QMainWindow):
     -------
         window (MainWindow): PyQt5 window object
     """
-    def __init__(self) -> None:
+    def __init__(self, base_names=None, plot_landmarks_enabled=True) -> None:
         super().__init__()
         self.setWindowTitle("Robot Simulation")
         self.simulationPaused = True # begin with a paused simulation
+        self.plot_landmarks_enabled = plot_landmarks_enabled
+        if base_names is None:
+            base_names = ["range"]
+        self.base_names = base_names if isinstance(base_names, list) else [base_names]
+        self.landmark_files, self.sim_files = self.expand_base_names(self.base_names)
 
         ### ----- pyqt5 application window ----- ###
         self.setGeometry(100, 100, window_width, window_height)
@@ -47,11 +53,11 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(mainWdiget)
 
         ### ----- simulation canvas widget ----- ###
-        canvas = QGraphicsView(mainWdiget) # create QGrahicsView object as a viewport to the drawings
-        canvas.setFixedSize(canvas_width, canvas_height) # set the canvas size
+        self.canvas = QGraphicsView(mainWdiget) # create QGrahicsView object as a viewport to the drawings
+        self.canvas.setFixedSize(canvas_width, canvas_height) # set the canvas size
 
         # create scene to handle robot item
-        self.scene = QGraphicsScene(canvas)
+        self.scene = QGraphicsScene(self.canvas)
         self.scene.setBackgroundBrush(background_color)
 
         self.robot_unopt = RobotDisplay() # create robot instance at the origin facing x+
@@ -61,7 +67,7 @@ class MainWindow(QMainWindow):
         self.scene.addItem(self.robot_unopt)
         self.scene.addItem(self.robot_path_unopt)
 
-        canvas.setScene(self.scene) # add the scene to the canvas
+        self.canvas.setScene(self.scene) # add the scene to the canvas
 
         ### ----- play, stop, and reset buttons ----- ###
         # create button area
@@ -116,7 +122,7 @@ class MainWindow(QMainWindow):
 
         ### ----- Add widgets to the main layout ----- ###
         # row | column | rowSpan | ColumnSpan
-        layout.addWidget(canvas, 0, 0, 2, 1)
+        layout.addWidget(self.canvas, 0, 0, 2, 1)
         layout.addWidget(button_widget, 2, 0, 1, 1)
         layout.addWidget(state_graph_widget_top, 0, 1, 1, 1)
         layout.addWidget(state_graph_widget_bottom, 1, 1, 1, 1)
@@ -128,11 +134,11 @@ class MainWindow(QMainWindow):
         ### ----- Simulation Thread ----- ###
         # Unoptimized robot
         self.sim_thread_unopt = QThread()
-        self.robot_sim_unopt = RobotSimulate1("range_unoptimized.txt")
+        self.robot_sim_unopt = RobotSimulate1(self.sim_files[0])
         self.robot_sim_unopt.moveToThread(self.sim_thread_unopt)
         # Optimized robot
         self.sim_thread_opt = QThread()
-        self.robot_sim_opt = RobotSimulate1("range_optimized.txt")
+        self.robot_sim_opt = RobotSimulate1(self.sim_files[1])
         self.robot_sim_opt.moveToThread(self.sim_thread_opt)
 
         # Add second robot and path to the scene (different color for clarity)
@@ -152,16 +158,23 @@ class MainWindow(QMainWindow):
         self.robot_sim_opt.finished_signal.connect(self.updateGUIOpt)
         self.robot_sim_opt.update_plots_signal.connect(self.updatePlotsOpt)
 
-        self.plot_landmarks()
+        if self.plot_landmarks_enabled:
+            self.plot_landmarks(self.landmark_files)
+            # Fit the view after all items are added and window is shown
+            QTimer.singleShot(0, self.fit_canvas_view)
 
-    def plot_landmarks(self):
+    def plot_landmarks(self, files=None, plot=True):
         """
-        Plots landmarks from unoptimized and optimized files on the scene and sets the scene rect to fit all points.
+        Plots landmarks from given files on the scene and sets the scene rect to fit all points.
+        Args:
+            files (list): List of file paths to read landmarks from.
+            plot (bool): Whether to plot the landmarks (default True).
         """
         import os
         from PyQt5.QtWidgets import QGraphicsEllipseItem
         from PyQt5.QtGui import QBrush, QColor
-        
+        if files is None:
+            files = self.landmark_files
         # Helper to read points
         def read_points(filename):
             points = []
@@ -171,21 +184,29 @@ class MainWindow(QMainWindow):
                 for line in f:
                     if line.strip() == '':
                         continue
-                    x_str, y_str = line.strip().split()
-                    x, y = float(x_str), float(y_str)
-                    points.append((x, y))
+                    try:
+                        x_str, y_str = line.strip().split()
+                        x, y = float(x_str), float(y_str)
+                        points.append((x, y))
+                    except Exception:
+                        continue
             return points
-
-        unopt_file = os.path.join(os.path.dirname(__file__), '../data/range_landmarks_unoptimized.txt')
-        opt_file = os.path.join(os.path.dirname(__file__), '../data/range_landmarks_optimized.txt')
-        unopt_points = read_points(unopt_file)
-        opt_points = read_points(opt_file)
-        all_points = unopt_points + opt_points
-
+        all_points = []
+        colors = ["#FFA7A7", "#B2FFB2", "#A7C7FF", "#FFD580"]
+        for idx, file in enumerate(files):
+            pts = read_points(file)
+            if plot:
+                color = colors[idx % len(colors)]
+                for x, y in pts:
+                    ellipse = QGraphicsEllipseItem(x*100-3, -y*100-3, 6, 6)
+                    ellipse.setBrush(QBrush(QColor(color)))
+                    ellipse.setPen(QColor(color))
+                    self.scene.addItem(ellipse)
+            all_points.extend(pts)
         # Compute bounds
         if all_points:
             xs, ys = zip(*all_points)
-            margin = 2.0  # meters, add margin around all points
+            margin = 1.0  # meters, add margin around all points
             min_x, max_x = min(xs)-margin, max(xs)+margin
             min_y, max_y = min(ys)-margin, max(ys)+margin
             # Convert to scene coordinates (scale by 100, flip y)
@@ -196,17 +217,14 @@ class MainWindow(QMainWindow):
             width = right - left
             height = bottom - top
             self.scene.setSceneRect(left, top, width, height)
+            # (fitInView will be called after window is shown)
 
-        # Helper to plot points
-        def plot_points(points, color):
-            for x, y in points:
-                ellipse = QGraphicsEllipseItem(x*100-3, -y*100-3, 6, 6)
-                ellipse.setBrush(QBrush(QColor(color)))
-                ellipse.setPen(QColor(color))
-                self.scene.addItem(ellipse)
-
-        plot_points(unopt_points, "#FFA7A7")
-        plot_points(opt_points, "#B2FFB2")
+    def fit_canvas_view(self):
+        """
+        Fits the canvas view to the scene rect (zoom out to fit all content)
+        """
+        from PyQt5.QtCore import Qt
+        self.canvas.fitInView(self.scene.sceneRect(), Qt.KeepAspectRatio)
 
     def updateGUIUnopt(self, robot_state: RobotState) -> None:
         """
@@ -292,3 +310,19 @@ class MainWindow(QMainWindow):
         self.x_pos_plot_opt.reset_plot()
         self.y_pos_plot_opt.reset_plot()
         self.phi_plot_opt.reset_plot()
+
+    @staticmethod
+    def expand_base_names(base_names):
+        """
+        Given a list of base names, return lists of landmark files and sim files.
+        """
+        import os
+        landmark_files = []
+        sim_files = []
+        for base in base_names:
+            d = os.path.join(os.path.dirname(__file__), '../data')
+            landmark_files.append(os.path.join(d, f'{base}_landmarks_unoptimized.txt'))
+            landmark_files.append(os.path.join(d, f'{base}_landmarks_optimized.txt'))
+            sim_files.append(f'{base}_unoptimized.txt')
+            sim_files.append(f'{base}_optimized.txt')
+        return landmark_files, sim_files
