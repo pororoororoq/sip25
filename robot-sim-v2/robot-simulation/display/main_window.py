@@ -33,13 +33,11 @@ class MainWindow(QMainWindow):
     -------
         window (MainWindow): PyQt5 window object
     """
-    def __init__(self, base_names=None, plot_landmarks_enabled=True) -> None:
+    def __init__(self, base_names="range", plot_landmarks_enabled=True) -> None:
         super().__init__()
         self.setWindowTitle("Robot Simulation")
         self.simulationPaused = True # begin with a paused simulation
         self.plot_landmarks_enabled = plot_landmarks_enabled
-        if base_names is None:
-            base_names = ["range"]
         self.base_names = base_names if isinstance(base_names, list) else [base_names]
         self.landmark_files, self.sim_files = self.expand_base_names(self.base_names)
 
@@ -320,9 +318,11 @@ class MainWindow(QMainWindow):
         landmark_files = []
         sim_files = []
         for base in base_names:
-            d = os.path.join(os.path.dirname(__file__), '../data')
-            landmark_files.append(os.path.join(d, f'{base}_landmarks_unoptimized.txt'))
-            landmark_files.append(os.path.join(d, f'{base}_landmarks_optimized.txt'))
-            sim_files.append(f'{base}_unoptimized.txt')
-            sim_files.append(f'{base}_optimized.txt')
+            d = os.path.join(os.path.dirname(__file__), '../data', base)
+            landmark_files.append(os.path.join(d, 'landmarks_unoptimized.txt'))
+            landmark_files.append(os.path.join(d, 'landmarks_optimized.txt'))
+            sim_files.append(os.path.join(d, 'unoptimized.txt'))
+            sim_files.append(os.path.join(d, 'optimized.txt'))
+            #print(f"Landmark files: {landmark_files}")
+            #print(f"Sim files: {sim_files}")
         return landmark_files, sim_files

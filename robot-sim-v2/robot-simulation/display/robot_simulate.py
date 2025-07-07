@@ -39,7 +39,7 @@ class RobotSimulate1(QObject):
         self.next_pose = None
         # Set the replay file path in a variable for easy modification
         self.replay_filename = replay_filename  # Now set from parameter
-        replay_path = os.path.join(os.path.dirname(__file__), f'../data/{self.replay_filename}')
+        replay_path = replay_filename
         if os.path.exists(replay_path):
             with open(replay_path, 'r') as f:
                 for line in f:
