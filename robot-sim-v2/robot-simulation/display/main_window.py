@@ -90,34 +90,36 @@ class MainWindow(QMainWindow):
         state_graph_widget = QWidget()
         state_graph_layout = QHBoxLayout()
 
-        # create graph objects
-        self.x_pos_plot = Plotter(title= "x-axis position", x_label="time (s)", y_label="position (m)")
-        self.y_pos_plot = Plotter(title="y-axis position", x_label="time (s)", y_label="position (m)")
-        self.phi_plot = Plotter(title="heading", x_label="time (s)", y_label="heading (deg)")
+        # create graph objects for unoptimized robot
+        self.x_pos_plot_unopt = Plotter(title= "Unopt x-axis position", x_label="time (s)", y_label="position (m)")
+        self.y_pos_plot_unopt = Plotter(title="Unopt y-axis position", x_label="time (s)", y_label="position (m)")
+        self.phi_plot_unopt = Plotter(title="Unopt heading", x_label="time (s)", y_label="heading (deg)")
+        # create graph objects for optimized robot
+        self.x_pos_plot_opt = Plotter(title= "Opt x-axis position", x_label="time (s)", y_label="position (m)")
+        self.y_pos_plot_opt = Plotter(title="Opt y-axis position", x_label="time (s)", y_label="position (m)")
+        self.phi_plot_opt = Plotter(title="Opt heading", x_label="time (s)", y_label="heading (deg)")
 
-        # add the grapsh to the graph area
-        state_graph_layout.addWidget(self.x_pos_plot)
-        state_graph_layout.addWidget(self.y_pos_plot)
-        state_graph_layout.addWidget(self.phi_plot)
-        state_graph_widget.setLayout(state_graph_layout)
+        # add the graphs to the graph areas
+        state_graph_layout_top = QHBoxLayout()
+        state_graph_layout_top.addWidget(self.x_pos_plot_unopt)
+        state_graph_layout_top.addWidget(self.y_pos_plot_unopt)
+        state_graph_layout_top.addWidget(self.phi_plot_unopt)
+        state_graph_widget_top = QWidget()
+        state_graph_widget_top.setLayout(state_graph_layout_top)
 
-        ### ----- velocity graphs ----- ###
-        vel_graph_widget = QWidget()
-        vel_graph_layout = QHBoxLayout()
+        state_graph_layout_bottom = QHBoxLayout()
+        state_graph_layout_bottom.addWidget(self.x_pos_plot_opt)
+        state_graph_layout_bottom.addWidget(self.y_pos_plot_opt)
+        state_graph_layout_bottom.addWidget(self.phi_plot_opt)
+        state_graph_widget_bottom = QWidget()
+        state_graph_widget_bottom.setLayout(state_graph_layout_bottom)
 
-        self.vl_plot = Plotter(title="left wheel linear vel", x_label="time (s)", y_label="velocity (m/s)")
-        self.vr_plot = Plotter(title="right wheel linear vel", x_label="time (s)", y_label="velocity (m/s)")
-
-        vel_graph_layout.addWidget(self.vl_plot)
-        vel_graph_layout.addWidget(self.vr_plot)
-        vel_graph_widget.setLayout(vel_graph_layout)
-        
         ### ----- Add widgets to the main layout ----- ###
         # row | column | rowSpan | ColumnSpan
         layout.addWidget(canvas, 0, 0, 2, 1)
         layout.addWidget(button_widget, 2, 0, 1, 1)
-        layout.addWidget(state_graph_widget, 0, 1, 1, 1)
-        layout.addWidget(vel_graph_widget, 1, 1, 1, 1)
+        layout.addWidget(state_graph_widget_top, 0, 1, 1, 1)
+        layout.addWidget(state_graph_widget_bottom, 1, 1, 1, 1)
 
         layout.setSpacing(0)
         layout.setRowStretch(3, 2)
@@ -168,19 +170,17 @@ class MainWindow(QMainWindow):
         """
         Updates GUI graphs for the unoptimized robot
         """
-        self.x_pos_plot.update_plot_signal.emit(time, [state.px])
-        self.y_pos_plot.update_plot_signal.emit(time, [state.py])
-        self.phi_plot.update_plot_signal.emit(time, [np.rad2deg(state.phi)])
-
-        self.vl_plot.update_plot_signal.emit(time, [wheel_vel.vx])
-        self.vr_plot.update_plot_signal.emit(time, [wheel_vel.vy])
+        self.x_pos_plot_unopt.update_plot_signal.emit(time, [state.px])
+        self.y_pos_plot_unopt.update_plot_signal.emit(time, [state.py])
+        self.phi_plot_unopt.update_plot_signal.emit(time, [np.rad2deg(state.phi)])
 
     def updatePlotsOpt(self, time: float, state: RobotState, wheel_vel: RobotDerivativeState) -> None:
         """
         Updates GUI graphs for the optimized robot
         """
-        # Optionally, add new plots for the optimized robot or overlay on existing plots
-        pass
+        self.x_pos_plot_opt.update_plot_signal.emit(time, [state.px])
+        self.y_pos_plot_opt.update_plot_signal.emit(time, [state.py])
+        self.phi_plot_opt.update_plot_signal.emit(time, [np.rad2deg(state.phi)])
 
     def playSimulation(self):
         """
@@ -230,8 +230,9 @@ class MainWindow(QMainWindow):
         self.robot_path_opt.clear_path()
 
         # reset the plots
-        self.x_pos_plot.reset_plot()
-        self.y_pos_plot.reset_plot()
-        self.phi_plot.reset_plot()
-        self.vl_plot.reset_plot()
-        self.vr_plot.reset_plot()
+        self.x_pos_plot_unopt.reset_plot()
+        self.y_pos_plot_unopt.reset_plot()
+        self.phi_plot_unopt.reset_plot()
+        self.x_pos_plot_opt.reset_plot()
+        self.y_pos_plot_opt.reset_plot()
+        self.phi_plot_opt.reset_plot()
