@@ -31,14 +31,14 @@ class RobotSimulate1(QObject):
         self.replay_poses = []
         self.replay_mode = False
         self.replay_index = 0
-        self.move_step_interval = 150  # Number of timer ticks for moving between poses
-        self.turn_step_interval = 50   # Number of timer ticks for turning in place
+        self.move_step_interval = 1 # Number of timer ticks for moving between poses
+        self.turn_step_interval = 1   # Number of timer ticks for turning in place
         self.replay_step_interval = self.move_step_interval + self.turn_step_interval
         self.replay_interp_step = 0
         self.current_pose = None
         self.next_pose = None
         # Set the replay file path in a variable for easy modification
-        self.replay_filename = 'optimized.txt'  # Change this to use a different factor graph file
+        self.replay_filename = 'range_optimized.txt'  # Change this to use a different factor graph file
         replay_path = os.path.join(os.path.dirname(__file__), f'../data/{self.replay_filename}')
         if os.path.exists(replay_path):
             with open(replay_path, 'r') as f:
@@ -68,7 +68,7 @@ class RobotSimulate1(QObject):
         """
         runs the timer for the main robot updates on this new thread
         """
-        self.simulationTimedThread.start(10)
+        self.simulationTimedThread.start(1)
 
     def stop(self) -> None:
         """
@@ -90,6 +90,7 @@ class RobotSimulate1(QObject):
                 x = (1 - t) * self.current_pose[0] + t * self.next_pose[0]
                 y = (1 - t) * self.current_pose[1] + t * self.next_pose[1]
                 theta = self.current_pose[2]
+                #print(f"x: {x}, y: {y}, theta: {theta}")
             else:
                 # Interpolate theta in place
                 t = (self.replay_interp_step - self.move_step_interval) / self.turn_step_interval
