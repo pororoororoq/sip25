@@ -1,9 +1,9 @@
 # New Things
 ## GTSAM Integration
-The .ipynb files are examples from the GTSAM repo--modifications are made to store the poses in .txt files.
+The .ipynb files are examples from the GTSAM repo--modifications are made to store the poses in .txt files. It is not necessary to run the notebooks unless it is desired to create new simlations, as all of the necessary data (for loop, planar, and range) is already stored in the *data/* folder.
 ## Visualizations
 Visualizations now use a "replay mode" that is implemented in *display/robot_simulate.py*. Robots move in a "forward then turn" fashion as a simplification. After generating unoptimized and optimized factor graphs, the following can be configured in *simulation.py*:
-- **base_name**(*range*): folder name that contains pose and/or landmark information (pose information MUST be stored as *unoptimized.txt* and *optimized.txt*, while landmrk information MUST be stored as *landmarks_unoptimized.txt* and *landmarks_optimized.txt*.)
+- **base_name**(*range*): folder name (supports "range", "planar", "loop") that contains pose and/or landmark information (pose information MUST be stored as *unoptimized.txt* and *optimized.txt*, while landmrk information MUST be stored as *landmarks_unoptimized.txt* and *landmarks_optimized.txt*.)
 - **plot_landmarks_enabled**(*True*): indicates whether landmark visualizatoin is enabled--both unoptimized and optimized landmark files must be present to plot landmarks
 - **move_speed**(*1*): number of timer ticks (positive integer) for moving between poses (lower is faster--please adjust accordingly)
 - **turn_speed**(*1*): number of timer ticks (positive integer) for turning in place (lower is faster--please adjust accordingly)
