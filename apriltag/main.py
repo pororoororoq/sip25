@@ -4,45 +4,59 @@ import apriltag
 from picamera2 import Picamera2
 from time import sleep
 
-# --- Camera Calibration (replace with actual values!) ---
-CAMERA_MATRIX = np.array([[600, 0, 320],
-                          [0, 600, 240],
-                          [0, 0, 1]], dtype=np.float32)
-DIST_COEFFS = np.zeros(5)  # Assume no distortion for simplicity
+# === Camera Calibration ===
+# perfect values used here--calibration did not work very well
+CAMERA_MATRIX = np.array([
+    [3208, 0, 1640],
+    [0, 3212, 1232],
+    [0, 0, 1]
+], dtype=np.float64)
 
-# Tag sizes (in meters)
-TAG_SIZE = 0.05  # 5cm
+# randomly generated values that typically happen in practic
+DIST_COEFFS = np.array([-0.27, 0.12, 0.002, -0.003, -0.01], dtype=np.float64)
 
-# Known tag IDs
+# === Tag Configuration ===
+TAG_SIZE = 0.04  # meters
 MIRROR_TAG_ID = 0
 ROBOT_TAG_ID = 1
 
-# Mirror transformation (if known) - optional
-# We assume the mirror is at a fixed pose in world space.
-
-# --- Initialize Camera ---
+# === Initialize Camera ===
 picam2 = Picamera2()
 picam2.configure(picam2.create_still_configuration(main={"format": 'RGB888'}))
 picam2.start()
 sleep(1)
 
-# --- Capture Image ---
+# === Capture Image ===
 frame = picam2.capture_array()
+print("Captured frame shape:", frame.shape)
 cv2.imwrite("captured.jpg", frame)
 
-# --- Detect Tags ---
+# === Detect Tags ===
+# --- Detect Tags at lower resolution ---
 gray = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
-detector = apriltag.Detector()
-tags = detector.detect(gray)
+h_original, w_original = gray.shape
+
+# Resize for faster detection
+resized_w, resized_h = 800, 600
+gray_small = cv2.resize(gray, (resized_w, resized_h))
+scale_x = w_original / resized_w
+scale_y = h_original / resized_h
+
+# Run detector
+detector = apriltag.Detector(apriltag.DetectorOptions(families='tag36h11'))
+tags = detector.detect(gray_small)
 
 poses = {}
 
-# --- Estimate Poses of Detected Tags ---
 for tag in tags:
     tag_id = tag.tag_id
-    corners = np.array(tag.corners, dtype=np.float32)
 
-    # SolvePnP: estimate 6DoF pose
+    # Scale corners back to original image resolution
+    corners = np.array(tag.corners, dtype=np.float32)
+    corners[:, 0] *= scale_x  # scale x coords
+    corners[:, 1] *= scale_y  # scale y coords
+
+    # Define real-world object points
     obj_points = np.array([
         [-TAG_SIZE / 2, -TAG_SIZE / 2, 0],
         [ TAG_SIZE / 2, -TAG_SIZE / 2, 0],
@@ -54,17 +68,39 @@ for tag in tags:
     if retval:
         poses[tag_id] = (rvec, tvec)
 
-# --- Analyze Robot Position ---
+# === Helper: Reflect a point across a plane ===
+def reflect_point(point, plane_point, plane_normal):
+    plane_normal = plane_normal / np.linalg.norm(plane_normal)
+    v = point - plane_point
+    dist = np.dot(v, plane_normal)
+    reflected = point - 2 * dist * plane_normal
+    return reflected
+
+# === Analyze Robot Position ===
 if MIRROR_TAG_ID in poses and ROBOT_TAG_ID in poses:
-    _, mirror_pose = poses[MIRROR_TAG_ID]
+    # Mirror tag pose
+    rvec_m, tvec_m = poses[MIRROR_TAG_ID]
+    tvec_m = tvec_m.reshape(-1)
+
+    # Compute mirror normal from tag rotation
+    R_m, _ = cv2.Rodrigues(rvec_m)
+    tag_normal_local = np.array([0, 0, 1])   # Tag's local Z axis = normal
+    mirror_normal = R_m @ tag_normal_local   # Now in camera frame
+
+    # Robot tag pose
     rvec_r, tvec_r = poses[ROBOT_TAG_ID]
+    tvec_r = tvec_r.reshape(-1)
 
-    # Flip robot's position across mirror plane (assumed to be Z-normal)
-    mirror_normal = np.array([0, 0, 1])  # Assuming mirror lies in XY plane
-    reflected_pos = tvec_r - 2 * np.dot(tvec_r.T, mirror_normal) * mirror_normal.T
+    # Reflect robot's position across the mirror plane
+    reflected_pos = reflect_point(tvec_r, tvec_m, mirror_normal)
 
-    print("Direct Robot Position (camera frame):", tvec_r.T)
-    print("Reflected Robot Position Estimate (camera frame):", reflected_pos.T)
+    print("Direct Robot Position (camera frame):", tvec_r)
+    print("Mirror Plane Normal (camera frame):", mirror_normal)
+    print("Reflected Robot Position Estimate (camera frame):", reflected_pos)
 
 else:
     print("Required tags not detected.")
+
+print("Mirror tag position:", tvec_m)
+mirror_distance = np.linalg.norm(tvec_m)
+print("Camera to mirror distance:", mirror_distance)
