@@ -1,5 +1,3 @@
-# file on the raspberry pi that just takes a pic
-# WILL NOT RUN LOCALLy
 from picamera2 import Picamera2
 from time import sleep
 
@@ -16,3 +14,5 @@ sleep(2)
 picam2.capture_file("image.jpg")
 
 print("Picture saved as image.jpg")
+
+

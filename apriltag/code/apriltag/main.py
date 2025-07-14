@@ -4,19 +4,19 @@ import apriltag
 from picamera2 import Picamera2
 from time import sleep
 
-# === Camera Calibration ===
-# perfect values used here--calibration did not work very well
+# === Camera Calibration (replace with actual values!) ===
+
 CAMERA_MATRIX = np.array([
-    [3208, 0, 1640],
-    [0, 3212, 1232],
+    [2568.15920, 0, 1607.69176],
+    [0, 2577.70235, 1311.24164],
     [0, 0, 1]
 ], dtype=np.float64)
 
-# randomly generated values that typically happen in practic
-DIST_COEFFS = np.array([-0.27, 0.12, 0.002, -0.003, -0.01], dtype=np.float64)
+
+DIST_COEFFS = np.array([0.19523417, -0.66382091, 0.00224084, 0.00512703, 0.66369046], dtype=np.float64)
 
 # === Tag Configuration ===
-TAG_SIZE = 0.04  # meters
+TAG_SIZE = 0.04  # 5cm
 MIRROR_TAG_ID = 0
 ROBOT_TAG_ID = 1
 
@@ -64,6 +64,7 @@ for tag in tags:
         [-TAG_SIZE / 2,  TAG_SIZE / 2, 0],
     ], dtype=np.float32)
 
+    # success/fail, rotation, translation
     retval, rvec, tvec = cv2.solvePnP(obj_points, corners, CAMERA_MATRIX, DIST_COEFFS)
     if retval:
         poses[tag_id] = (rvec, tvec)
@@ -71,19 +72,28 @@ for tag in tags:
 # === Helper: Reflect a point across a plane ===
 def reflect_point(point, plane_point, plane_normal):
     plane_normal = plane_normal / np.linalg.norm(plane_normal)
+    #plane_normal[1] = 0
+    #print(f"plane_normal: {plane_normal}")
+    #plane_normal = np.array([0, 0, 1], dtype=np.float64)
     v = point - plane_point
+    #print(f"P - Q: {v}")
     dist = np.dot(v, plane_normal)
+    #print(f"dist: {dist}")
+    #print(f"translation vector: {dist * plane_normal}")
     reflected = point - 2 * dist * plane_normal
+    #print(f"reflected: {reflected}")
     return reflected
 
 # === Analyze Robot Position ===
 if MIRROR_TAG_ID in poses and ROBOT_TAG_ID in poses:
     # Mirror tag pose
     rvec_m, tvec_m = poses[MIRROR_TAG_ID]
+    #print(f"rvec_m: {rvec_m}")
     tvec_m = tvec_m.reshape(-1)
 
     # Compute mirror normal from tag rotation
     R_m, _ = cv2.Rodrigues(rvec_m)
+    #print(f"rotation matrix: {R_m}")
     tag_normal_local = np.array([0, 0, 1])   # Tag's local Z axis = normal
     mirror_normal = R_m @ tag_normal_local   # Now in camera frame
 
